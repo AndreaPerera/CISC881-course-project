@@ -1,12 +1,14 @@
+# Generalizing and Automating the Classification of Prostate Cancer Severity
 
-# CISC881 Final Project: Generalizing and Automating the Classification of Prostate Cancer Severity
+This is my final project for CISC 881 (Medical Imaging & Signal Processing). The goal of this project was to create
+an automated deep learning method that can accurately predict the severity of prostate cancer biopsies across a multi-centre
+dataset. This project is also known as the Prostate cANcer graDe Assessment (PANDA) Challenge, which was
+hosted on Kaggle.
 
 ## Kaggle Challenge Link:
 https://www.kaggle.com/c/prostate-cancer-grade-assessment
 
-
-
-### Provided files:
+### Provided data files:
 1. tiles_subset_16x64x64.npy  
 2. labels_subset_16x64x64.npy
 These files correspond with our x and y numpy arrays for training, validation and testing. Composed of a subset of 100 tiles and labels. These subsets have been fully preprocessed and are ready for training/testing
